@@ -1,0 +1,157 @@
+body {
+  background: rgb(209, 206, 206);
+  ;
+}
+#imgsel{
+  border: rgb(24, 129, 94) 2px solid;
+  padding: 12px;
+}
+#f_cap{
+  font-weight: bold;
+}
+.navbar {
+  background-color: white;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.navbar-brand {
+  background-color: aquamarine;
+}
+
+.navi.scrolled {
+  background-color: #8f8391 !important;
+  transition: background-color 200ms linear;
+}
+.navbar-nav > li{
+  margin-left:30px;
+  margin-right:30px;
+  list-style: none;
+}
+tbody>tr>th {color:transparent}
+h4 {
+  color: rgb(24, 129, 94);
+  font-size: 22px;
+  margin-top: 4px;
+}
+
+.box1 {
+  background-color: white;
+  padding-top: 16px;
+}
+
+#main{
+  width: 40%;
+}
+
+.box2 {
+  background-color: white;
+  padding: 20px;
+}
+
+#panel-figs1 {
+  height: 90%;
+  width: 90%;
+  margin: 20px;
+  text-align: center;
+}
+#panel-figs2 {
+  height: 90%;
+  width: 90%;
+  margin: 20px;
+  text-align: center;
+}
+#panel-figs3 {
+  height: 90%;
+  width: 90%;
+  margin: 20px;
+  text-align: center;
+}
+#panel-figs4 {
+  height: 90%;
+  width: 90%;
+  margin: 20px;
+  text-align: center;
+}
+
+table{
+  text-align: center;
+  margin:auto;
+}
+
+th, td {
+  border-style : hidden!important;
+	padding: 8px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.cell-highlight {
+  background-color: gold;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+
+
+thead {
+	background-color: white;
+	color:black;
+	font-size: 14px;
+	letter-spacing: 2%;
+  font-weight: bold;
+}
+
+
+.divtable {
+  background-color: white;
+  padding: 2px;
+  align-items: center;  
+}
+.divbtm {
+  width:100%;
+  /* position:absolute; */
+  bottom:0;
+  background-color: gray;
+  z-index:0;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+.divtop{
+  background-color: white;
+  z-index:2;
+}
+
+.divbdy{
+  background-color: white;
+  z-index:1;
+}
+
+
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  .selector {
+    visibility: visible;
+  }
+}
